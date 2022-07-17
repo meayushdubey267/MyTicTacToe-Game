@@ -40,6 +40,9 @@ const checkwin= ()=>{
 // game logic
 music.play()
 let boxes= document.getElementsByClassName("box");
+
+// The Array.from() method returns an array from any iterable object.
+
 Array.from(boxes).forEach(element =>{
     let boxtext =element.querySelector('.boxtext');
     element.addEventListener('click',(e)=>{
